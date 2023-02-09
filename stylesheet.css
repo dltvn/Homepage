@@ -1,0 +1,28 @@
+body {
+    background: url(bgImg.gif);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+}
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bookmarks {
+    margin: 20px;
+}
+.bookmarkLinks {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.bookmarkIcon {
+    width: 16px;
+    height: 16px;
+}
