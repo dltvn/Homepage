@@ -11,7 +11,7 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: #ffffff;
-    font-size: 80px;
+    font-size: 600%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #bookmarks {
