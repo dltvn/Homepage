@@ -14,8 +14,8 @@ body {
     font-size: 600%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#bookmarks {
-    margin: 3%;
+#bookmarksPomodoroGroup {
+    margin: 2%;
 }
 .bookmarkLinks {
     color: white;
@@ -34,10 +34,13 @@ body {
     height: 100%;
     border-radius: 5px;
 }
+.dropdown-toggle::after {
+  margin-left: 5%;
+}
 .btn-dark {
     --bs-btn-color: #fff;
     --bs-btn-bg: #121212;
-    --bs-btn-border-color: #121212;
+    --bs-btn-border-color: #232323;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #424649;
     --bs-btn-hover-border-color: #373b3e;
