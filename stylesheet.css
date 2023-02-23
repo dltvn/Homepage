@@ -146,4 +146,11 @@ main {
     .navbar:hover .link-text {
         display: inline;
     }
+
+    .nav-link:hover {
+        padding-left: 1.5rem;
+    }
+    #logo {
+        padding-left: 0;
+    }
 }
