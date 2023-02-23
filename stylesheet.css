@@ -17,13 +17,13 @@ body {
     padding: 0;
 }
 
-body::-webkit-scrollbar {
+.navbar::-webkit-scrollbar {
     width: 0.25rem;
 }
-body::-webkit-scrollbar-track {
-    background: var(--bg-primary);
+.navbar::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
 }
-body::-webkit-scrollbar-thumb {
+.navbar::-webkit-scrollbar-thumb {
     background: #7289da;
 }
 
@@ -95,7 +95,7 @@ main {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     color: #ffffff;
-    font-size: 12vw;
+    font-size: 11vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
