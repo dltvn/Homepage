@@ -10,7 +10,7 @@
             <ul class="navbar-nav">
                 <li class="logo">
                     <a href="https://dltvn.github.io/Homepage/" id="logo" class="nav-link">
-                        <img class="nav-icon" src="https://user-images.githubusercontent.com/92211895/220834481-01611e19-7b5c-4e9c-b3de-06fca0ae94a1.svg">
+                        <img class="nav-icon" src="https://user-images.githubusercontent.com/92211895/221053077-c6341707-7d6f-442d-8daf-155256c539e3.png">
                         <span class="link-text">Homepage</span>
                     </a>
                 </li>
@@ -61,8 +61,15 @@
 
         <main>
             <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+            
+            <div class="weather-widget" id="id2393b6524e924" a='{"t":"s","v":"1.2","lang":"en","locs":[730],"ssot":"c","sics":"ms","cbkg":"#FFFFFF00","cfnt":"rgba(255,255,255,1)","slfs":30,"slis":"45","slgp":16,"sdr":"rl"}'>Weather Data Source: 
+                <a href="https://sharpweather.com/weather_toronto/">https://sharpweather.com/weather_toronto/</a>
+            </div>
+
+            <script async src="https://static1.sharpweather.com/widgetjs/?id=id2393b6524e924"></script>
+            <script src="clock.js"></script>    
         </main>
 
-        <script src="clock.js"></script>
+        
     </body>
 </html>
