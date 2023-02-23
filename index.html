@@ -2,38 +2,67 @@
     <head>
         <title>Homepage</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheet.css">
-        <link rel="shortcut icon" href="https://user-images.githubusercontent.com/92211895/167035452-83f99cbc-c5f1-42c0-a41d-fb9a5fcbcddc.svg" type="image/x-icon">
+        <link rel="shortcut icon" href="/img/home.png" type="image/x-icon">
     </head>
     <body>
-        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col text-end">
-                    <div id="bookmarksPomodoroGroup" class="btn-group">
-                        <button id="bookmarksButton" type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split " data-bs-toggle="dropdown">Bookmarks</button>
-                        <ul id="bookmarksDropdown" class="dropdown-menu dropdown-menu-dark gap-1 p-2 rounded-3 w-220px">
-                            <li><a class="dropdown-item rounded-2 d-flex gap-2 align-items-center" href="https://youtube.com"><img class="bookmarkIcon" src="https://www.youtube.com/favicon.ico" alt=""> Youtube</a></li>
-                            <li><a class="dropdown-item rounded-2 d-flex gap-2 align-items-center" href="https://www.netflix.com/"><img class="bookmarkIcon" src="https://www.netflix.com/favicon.ico" alt="Netflix"> Netflix</a></li>
-                            <li><a class="dropdown-item rounded-2 d-flex gap-2 align-items-center" href="https://www.disneyplus.com/"><img class="bookmarkIcon" src="https://www.disneyplus.com/favicon.ico" alt="Disney+"> Disney+</a></li>
-                            <li><a class="dropdown-item rounded-2 d-flex gap-2 align-items-center" href="https://www.primevideo.com/"><img class="bookmarkIcon" src="https://www.primevideo.com/favicon.ico" alt="Primevideo"> Prime Video</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item rounded-2 d-flex gap-2 align-items-center" href="https://mail.google.com/"><img class="bookmarkIcon" src="https://mail.google.com/favicon.ico" alt="Gmail"> Gmail</a></li>
-                            <li><a class="dropdown-item rounded-2 d-flex gap-2 align-items-center" href="https://docs.google.com/"><img class="bookmarkIcon" src="https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico" alt="Google Docs"> Google Docs</a></li>
-                            <li><a class="dropdown-item rounded-2 d-flex gap-2 align-items-center" href="https://docs.google.com/spreadsheets"><img class="bookmarkIcon" src="//ssl.gstatic.com/docs/spreadsheets/favicon3.ico" alt="Google Sheets"> Google Sheets</a></li>
-                        </ul>
-                        <button id="pomodoroButton" type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown">Pomodoro</button>
-                        <div id="pomodoroDropdown" class="dropdown-menu dropdown-menu-dark gap-1 p-2 rounded-3 mx-0 border-0 shadow w-220px">
-                            <div class="embed-responsive">
-                                <embed id="pomodoro" src="https://pomofocus.io/app" >
-                            </div>  
-                        </div>
-                    </div>                   
-                </div>                
-            </div>
-        </div>
+        <nav class="navbar">
+            <ul class="navbar-nav">
+                <li class="logo">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/arrow.svg">
+                        <span class="link-text">Homepage</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/youtube.svg">
+                        <span class="link-text">Youtube</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/netflix.svg">
+                        <span class="link-text">Netflix</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/disney-plus.svg">
+                        <span class="link-text">Disney+</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/amazon-2489153.svg">
+                        <span class="link-text">Prime Video</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/gmail.svg">
+                        <span class="link-text">Gmail</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/docs.svg">
+                        <span class="link-text">Docs</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <img class="nav-icon" src="/img/github.svg">
+                        <span class="link-text">Github</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        </main>
+
         <script src="clock.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>
