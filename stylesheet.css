@@ -28,7 +28,7 @@ body {
 }
 
 main {
-    margin-left: 3rem;
+    margin-left: 4rem;
     padding: 1rem;
 }
 .navbar {
@@ -66,23 +66,18 @@ main {
 .nav-icon {
     min-width: 2rem;
     max-width: 2rem;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
-
-
-
 
 .logo {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    text-align: center;
-    letter-spacing: 0.3ch;
     background: var(--bg-secondary);
 }
 .logo img {
     transform: rotate(0deg);
-    transition: transform 200ms;
+    transition: transform 400ms;
 }
 .navbar:hover .logo img {
     transform: rotate(-180deg);
@@ -124,10 +119,15 @@ main {
 
     .nav-link {
         justify-content: center;
+
     }
 
     main {
         margin: 0;
+    }
+
+    .nav-icon {
+        margin-bottom: 0.5rem;
     }
 
 }
@@ -141,7 +141,17 @@ main {
         width: 4rem;
         height: 100vh;
     }
+
+    .nav-icon {
+        padding: 0.45rem;
+        border-radius: 30%;
+    }
     
+    .nav-link:hover .nav-icon {
+        background: var(--bg-primary);
+        margin-left: 1rem;
+        transition: 400ms;
+    }
 
     .navbar:hover {
         width: 14rem;
@@ -149,12 +159,5 @@ main {
 
     .navbar:hover .link-text {
         display: inline;
-    }
-
-    .nav-link:hover {
-        padding-left: 1.5rem;
-    }
-    #logo {
-        padding-left: 0;
     }
 }
