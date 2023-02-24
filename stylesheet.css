@@ -99,6 +99,10 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.weather-widget-link {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar {
         position: fixed;
